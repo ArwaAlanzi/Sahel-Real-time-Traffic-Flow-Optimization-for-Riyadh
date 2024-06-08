@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['bike', 'bus', 'car', 'motorcycle', 'truck']
+
+roboflow:
+  workspace: riyadhtrafficdataset-nc6ta
+  project: sdaia.t5.b02
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/riyadhtrafficdataset-nc6ta/sdaia.t5.b02/1
